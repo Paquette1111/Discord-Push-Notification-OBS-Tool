@@ -21,7 +21,5 @@ export const POST: RequestHandler = async ( {request}) => {
         return new Response(JSON.stringify('Message sent successfully to Discord.'));
     } else {
         error(500, 'There was an error');
-        return new Response(JSON.stringify('Failed to send message to Discord.'));
     }
-    
 };

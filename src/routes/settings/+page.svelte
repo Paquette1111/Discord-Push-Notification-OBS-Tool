@@ -27,7 +27,3 @@
     <input on:change={updateSettings} type="text" bind:value={settings.msg} placeholder="Message" class="w-full max-w-2xl input border-2 border-neutral-100 rounded-xl px-2 py-1">
     <input on:change={updateSettings} type="text" bind:value={settings.url} placeholder="Twitch URL" class="w-full max-w-2xl input border-2 border-neutral-100 rounded-xl px-2 py-1">
 </div>
-
-<style>
-
-</style>
