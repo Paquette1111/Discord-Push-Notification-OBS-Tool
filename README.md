@@ -1,5 +1,7 @@
 # Discord Push Notification OBS Tool
 
+![Preview](/img/preview.png)
+
 ## Introduction
 This project is a simple Sveltekit webapp designed to integrate Discord push notifications with OBS (Open Broadcaster Software). It aims to enhance live streaming experiences by seamlessly displaying Discord notifications.
 
@@ -7,7 +9,6 @@ This project is a simple Sveltekit webapp designed to integrate Discord push not
 - Manual Discord notifications right from OBS
 - Easy integration with existing OBS setups
 - Customizable notification display
-
 
 ## QUICK GUIDE
 Add this Custom Browser Dock in OBS [Vercel Deploy](https://discord-push-notification-tool.vercel.app/). 
@@ -46,6 +47,8 @@ Add this Custom Browser Dock in OBS [Vercel Deploy](https://discord-push-notific
 10. Type your notification 'Message' which might include custom text or commands like @everyone.
 11. Include a 'Twitch URL' if you want to send a link with your notifications.
 12. Click 'Save' to store your settings.
+
+![Preview](/img/settings.png)
 
 ## Contributing
 Contributions to enhance or expand the functionality of this project are welcome. Please follow the standard fork-pull request workflow.
