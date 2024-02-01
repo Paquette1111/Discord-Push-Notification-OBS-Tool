@@ -42,9 +42,9 @@
 
 </script>
 
-<div class="bg-neutral-800 w-full h-[100vh] flex flex-col items-center justify-center">
+<div class="bg-[#2b2e38] w-full h-[100vh] flex flex-col items-center justify-center px-1">
     {#if response }
         <p class="text-white">{response}</p>
     {/if}
-    <button on:click={postMessage} class="button bg-blue-500 text-white shadow-xl rounded-lg m-3  py-1 px-2 text-xl font-bold uppercase">NOTIFY DISCORD</button>
+    <button on:click={postMessage} class="bg-[#3c404b] hover:bg-[#4f535e] cursor-default rounded-[4px] w-full text-sm font-open text-white m-3 py-2 font-['Open Sans'] px-2">Notify Discord</button>
 </div>
