@@ -12,8 +12,8 @@ This project is a simple Sveltekit webapp designed to integrate Discord push not
 ## QUICK GUIDE
 Add this Custom Browser Dock in OBS [Vercel Deploy](https://discord-push-notification-tool.vercel.app/). 
 
-## 1. Setting Up a Discord Bot and Enabling Developer Mode
-### Creating a Discord Bot
+## Setting Up a Discord Bot, Enabling Developer Mode, and adding the OBS dock
+### 1. Creating a Discord Bot
 1. Go to the [Discord Developer Portal](https://discord.com/developers/applications).
 2. Create a new application and give it a name.
 3. Go to the "Bot" tab and click "Add Bot".
