@@ -1,38 +1,29 @@
-# create-svelte
+# Discord Push Notification OBS Tool
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+## Introduction
+This project is a simple Sveltekit webapp designed to integrate Discord push notifications with OBS (Open Broadcaster Software). It aims to enhance live streaming experiences by seamlessly displaying Discord notifications.
 
-## Creating a project
+## Features
+- Real-time Discord notifications in OBS
+- Easy integration with existing OBS setups
+- Customizable notification display
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Installation and Setup
+1. Clone the repository: `git clone https://github.com/Paquette1111/Discord-Push-Notification-OBS-Tool.git`
+2. Navigate to the project directory: `cd Discord-Push-Notification-OBS-Tool`
+3. Install dependencies: `npm install`
+4. Start the server: `npm run dev`
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Usage
+- Configure your Discord API settings in the provided configuration file.
+- Add the webapp as a browser source in OBS.
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+## Contributing
+Contributions to enhance or expand the functionality of this project are welcome. Please follow the standard fork-pull request workflow.
 
-## Developing
+## License
+This project is licensed under the [MIT License](LICENSE).
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+## Acknowledgements
+- Project created by [GitHub User](https://github.com/Paquette1111)
+- Thanks to the OBS and Discord communities for their support and resources.
