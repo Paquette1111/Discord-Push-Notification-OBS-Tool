@@ -10,7 +10,7 @@ This project is a simple Sveltekit webapp designed to integrate Discord push not
 
 
 ## QUICK GUIDE
-Add this Custom Browser Dock in OBS [https://discord-push-notification-tool.vercel.app/] (https://discord-push-notification-tool.vercel.app/). 
+Add this Custom Browser Dock in OBS [Vercel Deploy](https://discord-push-notification-tool.vercel.app/). 
 
 ## 1. Setting Up a Discord Bot and Enabling Developer Mode
 ### Creating a Discord Bot
@@ -38,7 +38,7 @@ Add this Custom Browser Dock in OBS [https://discord-push-notification-tool.verc
 2. Navigate to the scene where you want to display Discord notifications.
 3. Click on the 'Docks' > 'Custom Browser Docks...' menu option.
 4. Create a new source. Give it a name.
-5. In the 'URL' field, enter the following URL: [https://discord-push-notification-tool.vercel.app/](https://discord-push-notification-tool.vercel.app/).
+5. In the 'URL' field, enter the following URL: [Vercel Deploy](https://discord-push-notification-tool.vercel.app/).
 6. Click 'OK' to add the browser source.
 7. Click on the gear icon in the dock panel titled to open the settings.
 8. Fill in the 'Bot Secret' field with your Discord bot's token.
