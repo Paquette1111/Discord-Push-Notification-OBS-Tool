@@ -25,5 +25,4 @@ Contributions to enhance or expand the functionality of this project are welcome
 This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgements
-- Project created by [GitHub User](https://github.com/Paquette1111)
-- Thanks to the OBS and Discord communities for their support and resources.
+- Project created by [Matthew Paquette](https://github.com/Paquette1111)
