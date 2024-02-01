@@ -22,20 +22,30 @@ Add this Custom Browser Dock in OBS [Vercel Deploy](https://discord-push-notific
 4. Customize your bot (name, profile picture).
 5. Copy the bot token (keep this secure).
 
-### 2. Enabling Developer Mode in Discord
+### 2. Inviting Your Bot to a Server
+After setting up your bot on Discord, you'll need to invite it to the server where you want to send notifications:
+1. Replace `{YOUR BOT ID HERE}` in the following URL with your actual bot's client ID:  
+   `https://discord.com/oauth2/authorize?client_id={YOUR BOT ID HERE}&permissions=2048&scope=bot`
+2. Paste the modified URL into your web browser and hit enter.
+3. Select the server you want to invite the bot to from the dropdown menu.
+4. Click the 'Authorize' button to add the bot to your server.
+
+Ensure that you have the 'Manage Server' permissions on the Discord server you want to invite the bot to.
+
+### 3. Enabling Developer Mode in Discord
 1. Open Discord settings.
 2. Navigate to 'Advanced' settings.
 3. Toggle 'Developer Mode' to enabled.
 
-### 3. Getting Channel IDs
+### 4. Getting Channel IDs
 1. Right-click on the text channel in Discord with Developer Mode enabled.
 2. Click 'Copy ID' to get the channel's unique identifier.
 
-### 4. Configuring the Bot in Your Project
+### 5. Configuring the Bot in Your Project
 - Use the bot token and channel IDs in your project configuration as needed in the settings panel of the widget
 
 ## Using the Deployed Frontend in Your OBS Project
-### Adding as a Custom Browser Source
+### 6. Adding as a Custom Browser Source
 1. Open OBS (Open Broadcaster Software).
 2. Navigate to the scene where you want to display Discord notifications.
 3. Click on the 'Docks' > 'Custom Browser Docks...' menu option.
@@ -48,6 +58,12 @@ Add this Custom Browser Dock in OBS [Vercel Deploy](https://discord-push-notific
 10. Type your notification 'Message' which might include custom text or commands like @everyone.
 11. Include a 'Twitch URL' if you want to send a link with your notifications.
 12. Click 'Save' to store your settings.
+
+**!! DISCLAIMER !! your bot secret is only stored locally!**
+
+## Privacy Notice
+
+:warning: **Important:** All information entered in the Discord Push Notification OBS Tool is stored **locally on your device** and is **not stored externally**. It's your responsibility to keep your bot secret secure, as they can be used to access and control your Discord bot.
 
 ![Preview Settings Blank](/img/settings-blank.png)
 ![Preview Settings Filled](/img/settings.png)
