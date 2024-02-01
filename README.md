@@ -48,7 +48,8 @@ Add this Custom Browser Dock in OBS [Vercel Deploy](https://discord-push-notific
 11. Include a 'Twitch URL' if you want to send a link with your notifications.
 12. Click 'Save' to store your settings.
 
-![Preview](/img/settings.png)
+![Preview Settings Blank](/img/settings-blank.png)
+![Preview Settings Filled](/img/settings.png)
 
 ## Contributing
 Contributions to enhance or expand the functionality of this project are welcome. Please follow the standard fork-pull request workflow.
