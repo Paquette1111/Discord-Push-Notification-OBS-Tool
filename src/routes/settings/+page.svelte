@@ -26,4 +26,5 @@
     <input on:change={updateSettings} type="text" bind:value={settings.msg} placeholder="Message" class="w-full max-w-2xl input border-2 border-neutral-100 rounded-[4px] px-2 py-1">
     <input on:change={updateSettings} type="text" bind:value={settings.at} placeholder="@everyone" class="w-full max-w-2xl input border-2 border-neutral-100 rounded-[4px] px-2 py-1">
     <input on:change={updateSettings} type="text" bind:value={settings.url} placeholder="Twitch URL" class="w-full max-w-2xl input border-2 border-neutral-100 rounded-[4px] px-2 py-1">
+    <a href="/" class="btn text-center">Save</a>
 </div>

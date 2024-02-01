@@ -1,5 +1,8 @@
 <script lang="ts">
     import { onMount } from "svelte";
+    import Fa from 'svelte-fa'
+    import { faGear } from '@fortawesome/free-solid-svg-icons'
+
 
     let settings: Settings;
     let response: any;
@@ -46,5 +49,10 @@
     {#if response }
         <p class="text-white">{response}</p>
     {/if}
-    <button on:click={postMessage} class="bg-[#3c404b] hover:bg-[#4f535e] cursor-default rounded-[4px] w-full text-sm font-open text-white m-3 py-2 font-['Open Sans'] px-2">Notify Discord</button>
+    <span class="flex flex-row w-full gap-1">
+        <button on:click={postMessage} class="btn font-['Open Sans']">Notify Discord</button>
+        <a href="/settings" class="btn max-w-fit flex flex-col justify-center !px-3">
+            <Fa icon={faGear} size="md"/>
+        </a>
+    </span>
 </div>
