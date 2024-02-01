@@ -1,6 +1,7 @@
 # Discord Push Notification OBS Tool
 
-![Preview](/img/preview.png)
+![Preview OBS Widget](/img/preview.png)
+![Preview Discord Message](/img/preview-discord-msg.png)
 
 ## Introduction
 This project is a simple Sveltekit webapp designed to integrate Discord push notifications with OBS (Open Broadcaster Software). It aims to enhance live streaming experiences by seamlessly displaying Discord notifications.
